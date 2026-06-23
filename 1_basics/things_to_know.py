@@ -44,7 +44,7 @@ match day:
     case 7:
         print("sunday")
     case_:
-        print("invalid")    
+        print("not valid")    
 '''
 
 ## problem 4##
