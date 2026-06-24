@@ -28,7 +28,7 @@ else:
 ##Given the integer day denoting the day number, print on the screen which day of the week it is. Week starts from Monday and for values greater than 7 or less than 1, print Invalid.
 '''
 day = int(input("enter the day number :"))
-match day:
+
     case 1:
         print("monday")
     case 2:
@@ -61,4 +61,41 @@ print(arr)
 print(arr[0])
 print(arr[4])
 print(arr[2])
+'''
+
+## problem 5##
+##Given two integers low and high, return the sum of all integers from low to high inclusive.Input: low = 3, high = 8
+'''
+sum = 0
+for i in range(3,9):
+  sum = sum + i
+print(sum)
+'''
+
+## problem 6##
+##Given a digit d (0 to 9), find the sum of the first 50 positive integers (integers > 0) that end with digit d.
+## A number ends with digit 2 if its last digit is 2.
+'''
+sum = 0
+num = 2
+i = 0
+while i < 50:
+    sum = sum + num
+    num = num + 10
+    i = i +1 
+
+print(sum)
+'''
+
+## problem 7##
+##Given an array arr of n elements. The task is to reverse the given array. The reversal of array should be inplace.Input: n=5, arr = [1,2,3,4,5]
+'''
+arr = [1,2,3,4,5]
+left = 0
+right = len(arr)-1
+while left<right:
+ arr[left] , arr[right] = arr[right] , arr[left]
+ left = left+1
+ right = right-1
+ print(arr)
 '''
