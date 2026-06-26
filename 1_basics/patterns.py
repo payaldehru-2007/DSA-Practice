@@ -60,3 +60,20 @@ for i in range(n):
         print(i+1 , end ="")
     print()
 '''
+
+##problem 5##
+##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
+'''
+*****
+****
+***
+**
+*
+
+n = 5 
+for i in range (n):
+    for j in range(n-i):
+        print("*" , end="")
+    print()
+'''
+
