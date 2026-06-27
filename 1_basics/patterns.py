@@ -108,7 +108,7 @@ for i in range(n):
   *****
  *******
 *********
-'''
+
 n = 5
 for i in range(n):
     for j in range(n-i-1):
@@ -117,6 +117,7 @@ for i in range(n):
     for j in range(2*i+1):
         print("*",end ="")
     print()
+'''
 
 ##problem 8##
 ##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
@@ -133,13 +134,13 @@ i           r           j                   *               0
 2           4           0,1,2,3             5
 3           3           0,1,2               3   
 4           2           0,1                 1
-
+'''
 
 n = 5
 for i in range(n):
-    for j in range(2*i-1):
+    for j in range(i):
         print(" ",end ="")
-    for j in range(n-i-1):
+    for j in range(2*(n-i)-1):
         print("*",end ="")
     print()
-    '''
+    
