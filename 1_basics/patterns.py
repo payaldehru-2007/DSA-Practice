@@ -128,13 +128,6 @@ for i in range(n):
    ***
     *
 
-i           r           j                   *               0
-0           6           0,1,2,3,4,5         9               2*i-1
-1           5           0,1,2,3,4           7
-2           4           0,1,2,3             5
-3           3           0,1,2               3   
-4           2           0,1                 1
-'''
 
 n = 5
 for i in range(n):
@@ -143,4 +136,4 @@ for i in range(n):
     for j in range(2*(n-i)-1):
         print("*",end ="")
     print()
-    
+'''
