@@ -224,6 +224,7 @@ for i in range(n):
         print(i+1-j,end="")
     print()
 '''
+
 ##problem 13##
 ##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
 '''
@@ -241,6 +242,7 @@ for i in range(n):
         num = num+1
     print()
 '''
+
 ##problem 14##
 ##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
 '''
@@ -256,6 +258,7 @@ for i in range(n):
         print((chr(65+j)),end="")
     print()
 '''
+
 ##problem 15##
 ##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
 '''
@@ -269,5 +272,21 @@ n = 5
 for i in range(n):
     for j in range(n-i):
         print((chr(65+j)),end="")
+    print()
+'''
+
+##problem 16##
+##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
+'''
+A
+BB
+CCC
+DDDD
+EEEEE
+
+n = 5 
+for i in range(n):
+    for j in range(i+1):
+        print((chr(65+i)),end="")
     print()
 '''
