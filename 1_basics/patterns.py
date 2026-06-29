@@ -312,3 +312,31 @@ for i in range(n):
             ch = ch-1 ##decrease character=c,b,a
     print()
 '''
+##problem 18##
+##Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
+'''
+5
+4 5
+3 4 5
+2 3 4 5
+1 2 3 4 5
+
+n = 5
+for i in range(n):
+    for j in range(i+1):
+        print((n-i+j),end=" ")
+    print()
+
+E 
+D E 
+C D E 
+B C D E 
+A B C D E
+
+n = 5 
+for i in range(n):
+    for j in range(i+1):
+        print(chr(65+(n-1-i)+j),end=" ")
+    print()
+
+'''
