@@ -20,17 +20,4 @@ while n > 0:
     n = n // 10
 print(rev)
 '''
-##problem 3##
-##You are given an integer n. You need to check whether the number is a palindrome number or not. Return true if it's a palindrome number, otherwise return false.
-class Solution:
-    def isPalindrome(self, n):
-        dup = n
-        revNum = 0
-        while n>0:
-            lastdigit = n%10
-            n = n//10
-            revNum = (revNum*10)+lastdigit
-        if dup == revNum :
-            return True
-        else:
-            return False
+
